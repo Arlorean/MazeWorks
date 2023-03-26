@@ -1,0 +1,18 @@
+{
+    "name": "MazeWorks.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:14d3db89223761a4fb60f8df78e14661"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

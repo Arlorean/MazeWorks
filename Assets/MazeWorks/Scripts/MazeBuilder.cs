@@ -10,6 +10,12 @@ namespace MazeWorks {
 
         MeshFilter meshFilter;
 
+        void Update() {
+            if (mazeNeedsBuilding) {
+                BuildMaze();
+            }
+        }
+
         void OnDrawGizmos() {
             if (mazeNeedsBuilding) {
                 BuildMaze();
@@ -48,6 +54,9 @@ namespace MazeWorks {
             }
 
             foreach (var cell in Cells) {
+                if (cell.name == "MazeCell (128)") {
+
+                }
                 cell.forward = null;
                 cell.back = null;
                 cell.left = null;
